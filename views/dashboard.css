@@ -1,0 +1,110 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #f4f6f9;
+    color: #333;
+  }
+  
+  header {
+    background: #1d3557;
+    color: white;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+ /* General Reset for header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #1e3a8a; /* Deep blue for header */
+    color: white;
+    font-family: 'Arial', sans-serif;
+    border-bottom: 2px solid #4f7bd9; /* Light blue border */
+  }
+  
+  /* Left section styling */
+  header .left h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  header .left h2 span {
+    color: #f0c419; /* Accent color for the username */
+  }
+  
+  /* Center section styling */
+  header .center h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0
+  }  
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    justify-content: center;
+  }
+  
+  section {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    flex: 1 1 400px;
+    min-width: 350px;
+  }
+  
+  h3 {
+    margin-top: 0;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #1d3557;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #457b9d;
+  }
+  
+  #expenseTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  #expenseTable th, #expenseTable td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  #total-expense {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+   

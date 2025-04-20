@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/dashboard.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.20/jspdf.plugin.autotable.min.js"></script>
+
+</head>
+<body>
+  <header>
+    <div class="left">
+      <h2>Welcome, <span id="user-name"></span></h2>
+    </div>
+    <div class="center">
+      <h1>Kharchadekho</h1>
+    </div>
+    <div class="right">
+      <button class="logout-btn" onclick="logout()">Logout</button>
+    </div>
+  </header>
+  
+
+  <main>
+    <section class="expense-form">
+      <h3>Add Expense</h3>
+      <form id="expenseForm">
+        <input type="number" name="amount" placeholder="Amount" required>
+        <input type="text" name="category" placeholder="Category" required>
+        <button type="submit">Add</button>
+      </form>
+    </section>
+
+    <section class="expense-display">
+      <h3>Your Expenses</h3>
+      <div id="total-expense">Total: ₹0</div>
+      <button onclick="downloadPDF()">Download PDF</button>
+      <table id="expenseTable">
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Amount (₹)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section class="chart-section">
+      <h3>Expense Chart</h3>
+      <canvas id="expenseChart"></canvas>
+    </section>
+  </main>
+
+  <script src="/js/dashboard.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <h2>Welcome, <span id="user-name"></span></h2>
+  <button onclick="logout()">Logout</button>
+
+  <h3>Add Expense</h3>
+  <form id="expenseForm">
+    <input type="number" name="amount" placeholder="Amount" required>
+    <input type="text" name="category" placeholder="Category" required>
+    <button type="submit">Add</button>
+  </form>
+
+  <h3>Your Expenses</h3>
+  <ul id="expenseList"></ul>
+
+  <h3>Chart</h3>
+  <canvas id="expenseChart"></canvas>
+
+  <script src="/js/dashboard.js"></script>
+</body>
+</html> -->

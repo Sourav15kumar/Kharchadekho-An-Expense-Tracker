@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="image1.PNG" alt="KharchaDekho Logo" class="logo-img">
+            <div class="logo-name">Kharcha<span>Dekho</span></div>
+        </div>
+        <!-- Menu Section -->
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#transition-page">Features</a></li>
+            <li><a href="#expense-container">Expenses</a></li>
+            <li><a href="#contactus-container">Support</a></li>
+            <!-- <li><a href="#login">Login</a></li> -->
+            
+            <!-- <li><a href="/index.html">Home</a></li> -->
+            <li><a href="/register.html">Register</a></li>
+            <li><a href="/login.html">Login</a></li>
+            <li><a href="/dashboard.html">Dashboard</a></li>
+
+        </ul>
+        <!-- Hamburger Icon for Mobile -->
+        <div class="hamburger" id="hamburger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+    </div>
+</nav>
+
+
+ <!-- Home Section -->
+ <section id="home" class="home">
+  <div class="home-container">
+      <div class="home-text">
+          <h1>Welcome to <span>KharchaDekho</span></h1>
+          <p>Your daily expense tracker.
+            <br> 
+            Manage your money effectively!</p>
+          <p class="quote">"Track your spending, track your future!"</p>
+      </div>
+      <div class="person">
+          <img src="image2.png" alt="Person pointing to logo" class="person-img">
+      </div>
+  </div>
+</section>
+
+
+<!-- Transition Section -->
+<section id="transition-page" class="transition-page">
+  <div class="transition-container">
+    <h1 class="page-title">Explore Our Features</h1>
+    <p class="page-description">
+      With KharchaDekho, track your expenses easily and make smarter financial decisions.
+    </p>
+  </div>
+
+
+<!-- Features Section -->
+<section class="features">
+  <div class="features-container">
+
+    <div class="feature">
+      <img src="feature1.jpg" alt="Registration" class="feature-icon">
+      <h2>Register Quickly</h2>
+      <p>Sign up and start tracking your expenses within minutes.</p>
+    </div>
+
+    <div class="feature">
+      <img src="feature2.jpg" alt="Expenses" class="feature-icon">
+      <h2>Add Your Expenses</h2>
+      <p>Easily record your daily expenses and categorize them.</p>
+    </div>
+
+    <div class="feature">
+      <img src="feature3.jpg" alt="Graph" class="feature-icon">
+      <h2>Visualize Your Data</h2>
+      <p>Track your spending patterns through insightful graphs and charts.</p>
+    </div>
+
+    <div class="feature">
+      <img src="feature4.jpg" alt="Data Security" class="feature-icon">
+      <h2>Data Security</h2>
+      <p>Your data is encrypted and securely stored, ensuring privacy.</p>
+    </div>
+
+    <div class="feature">
+      <img src="feature5.jpg" alt="Anytime Access" class="feature-icon">
+      <h2>Anytime Access</h2>
+      <p>Access your financial records anytime, anywhere.</p>
+    </div>
+
+    <div class="feature">
+      <img src="feature6.jpg" alt="Track Expenses" class="feature-icon">
+      <h2>Track Your Expenses</h2>
+      <p>Monitor and analyze your expenses with detailed insights.</p>
+    </div>
+
+  </div>
+</section>
+</section>
+
+
+<!-- expense try option -->
+
+<div class="expensecontainer">
+        
+        <div id="expense-container" class="expense-container">
+            <img src="expense-container image.png" alt="Expense Icon">
+            <div class="expense-tryheading">
+            <h1>Let's Try KharchaDekho</h1>
+            <a href="expense_tracker.html" class="btn">Experience KharchaDekho</a>
+        </div>
+      </div>
+    </div>
+
+<div class="reviewsection">
+  <h2 class="review-heading">What Our Users Say About KharchaDekho</h2>
+
+    <div class="review-section">
+      <div class="review-slide active">
+        <img src="photoes/review img1.jpg" alt="sourav" class="user-img">
+        <h3 class="user-name">Sourav kumar</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <p class="quote">"KharchaDekho ne meri savings track karne ka tarika badal diya!"</p>
+      </div>
+    
+      <div class="review-slide">
+        <img src="photoes/review img 2.jpg" alt="khusi" class="user-img">
+        <h3 class="user-name">Khusi</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+        </div>
+        <p class="quote">"User-friendly interface aur simple features mujhe bahut pasand aaye."</p>
+      </div>
+    
+      <div class="review-slide">
+        <img src="photoes/review img 3.jpg" alt="ankit" class="user-img">
+        <h3 class="user-name">Ankit</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <p class="quote">"Ab main har mahine ka budget easily manage kar paata hoon. Thanks KharchaDekho!"</p>
+      </div>
+    
+      <div class="dot-container">
+        <span class="dot active" onclick="showSlide(0)"></span>
+        <span class="dot" onclick="showSlide(1)"></span>
+        <span class="dot" onclick="showSlide(2)"></span>
+      </div>
+    </div>
+  </div>
+<!-- contact us section -->
+
+<div id="contactus-container" class="contactus-container">
+  <div class="contact-left">
+    <h2>Contact Us</h2>
+    <p>Have a question, feedback, or just want to say hi? Reach out and we'll get back to you soon!</p>
+
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <div class="contact-right">
+    <h3>Get in Touch</h3>
+    <p><i class="fas fa-envelope"></i> support@kharchadekho.com</p>
+    <p><i class="fas fa-phone"></i> +91 9876543210</p>
+    <p><i class="fas fa-map-marker-alt"></i> New Delhi, India</p>
+
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</div>
+
+
+  <!-- abb hai footer section start -->
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>About</h3>
+        <a href="#contactus-container">Contact Us</a>
+        <a href="#transition-page">About Us</a>
+        <a href="#">Careers</a>
+        <a href="#">KharchDekho Stories</a>
+      </div>
+      <div class="footer-column">
+        <h3>Help</h3>
+        <a href="#">Payments</a>
+        <a href="#">Cancellation</a>
+        <a href="#contactus-container">Customer care support</a>
+        <a href="#">FAQ</a>
+      </div>
+      <div class="footer-column">
+        <h3>Policy</h3>
+        <a href="#">Return Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Security</a>
+        <a href="#">Privacy</a>
+      </div>
+      <div class="footer-column">
+        <h3>Social</h3>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+      <div class="footer-column contact">
+        <h3>Mail Us:</h3>
+        <p>KharchaDekho.com,<br>
+           123 Budget Lane,<br>
+           NEW DELHI, India - 120001</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 KharchaDekho | Made with ❤️ for your budget</p>
+      <p>Group project by Sourav Kumar,Ankit Jha,Ashmi,Khushi</p>
+    </div>
+  </footer>
+  
+  <!-- yha end footer -->
+
+  <script src="script.js"></script>
+</body>
+</html>
