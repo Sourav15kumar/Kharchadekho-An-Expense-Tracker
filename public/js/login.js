@@ -28,7 +28,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
   })
   .then(res => res.json())
   .then(data => {
-    console.log(data); // check the returned object
+    console.log(data); 
 
     if (data.success) {
       window.location.href = '/dashboard.html';
